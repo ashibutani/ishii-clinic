@@ -1,0 +1,825 @@
+@charset "utf-8";
+
+/* 全てに適用 */
+img {
+    width: 100%;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+/* header */
+.headerWrapper {
+    position: relative;
+    width: 61.4%;
+    max-width: 1180px;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 22%;
+    margin-left: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.info_box {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.info_text {
+    text-align: right;
+    letter-spacing: 0px;
+    color: #444444;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 7px;
+}
+
+.tell_box {
+    display: flex;
+    height: 35px;
+    justify-content: right;
+}
+
+.tell_img {
+    width: 24px;
+    margin: 5px;
+}
+
+.tell_num {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #21A937;
+    line-height: 35px;
+}
+
+/* ファーストビュー */
+.fvWrapper {
+    background-image: url(../images/fv\ 1.jpg);
+    background-position: 50%;
+    height: 49vw;
+    background-size: cover;
+    position: relative;
+
+}
+
+.fv_text {
+    position: absolute;
+    top: 14%;
+    left: 10%;
+    height: 59%;
+}
+
+h1 {
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    color: #444444;
+    font-size: clamp(20px, 1.5vw, 28px);
+    font-weight: 700;
+    line-height: 35px;
+    height: 100%;
+    letter-spacing: 6.4px;
+
+
+}
+
+.h1span {
+    display: inline-block;
+    background-color: #ffffff;
+    width: 102px;
+    height: 100%;
+    margin-right: 4.17vw;
+    padding-top: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.green {
+    color: #21A937;
+
+}
+
+/* belief */
+.beliefWrapper {
+    width: clamp(800px, 61.4vw, 1180px);
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap-reverse;
+    padding-top: 162px;
+    padding-bottom: 82px;
+    justify-content: space-between;
+}
+
+.belief_textbox {
+    width: 35%;
+    max-width: 415px;
+    margin: 1.72vw;
+    display: grid;
+    align-items: center;
+}
+
+.belief_text1 {
+
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #444444;
+    line-height: 35px;
+
+
+
+}
+
+.belief {
+    margin-bottom: 1.67vw;
+    display: inline-block;
+    background: linear-gradient(transparent 72%, #99E5A5 0%);
+
+}
+
+.belief_text2 {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #444444;
+    line-height: 38px;
+
+}
+
+.belief_img {
+    width: 58%;
+    max-width: 690px;
+    //min-width: 300px;
+    display: grid;
+    align-items: center;
+}
+
+
+/* contents */
+.contentsWrapper {
+    background-color: #F5FCF8;
+    padding-top: 78px;
+}
+
+.contents_inner {
+    width: 61.4vw;
+    max-width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    display: inline-flex;
+    background: linear-gradient(transparent 72%, #99E5A5 0%);
+    margin-bottom: 70px;
+    line-height: 35px;
+
+}
+
+/* 治療内容 */
+.medical p {
+    font-size: 16px;
+    font-weight: 400px;
+    text-align: center;
+    line-height: 23px;
+    color: #444444;
+
+}
+
+
+
+.medical_bigbox {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 34px;
+    justify-content: space-between;
+}
+
+.medical_smallbox {
+    position: relative;
+    width: 32%;
+    height: 30.78vw;
+    max-height: 591px;
+    background: #FFFFFF;
+    border: 2px solid #C9C9C9;
+    border-radius: 10px;
+    margin-bottom: 81px;
+}
+
+.desease {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    line-height: 35px;
+    color: #444444;
+}
+
+.symptoms {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 38px;
+    font-weight: 700;
+    text-align: left;
+    color: #444444;
+}
+
+.medical_img {
+    width: 49%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* お知らせ */
+.news {
+    padding-bottom: 113px;
+}
+
+.news_box {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 30px;
+    height: 390px;
+
+}
+
+
+li {
+    height: 61px;
+    border-bottom: 2px solid #E7E7E7;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.info {
+    width: 1048px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.date {
+    color: #21A937;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 30px;
+    line-height: 61px;
+}
+
+.top {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 2;
+
+    background-color: #444444;
+    width: 80px;
+    height: 25px;
+    margin-right: 30px;
+    margin-top: 18px;
+    //display: grid;
+    //align-content: center;
+
+
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 700;
+    color: #444444;
+    text-align: left;
+    padding-right: 0;
+    line-height: 61px;
+}
+
+
+
+.view_all {
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 40px;
+    margin-top: 45px;
+    justify-content: right;
+    color: #444444;
+    line-height: 23px;
+}
+
+.allow {
+    width: 10px;
+    height: 14px;
+    margin-left: 7px;
+
+}
+
+/* フッター */
+.footerWrapper {
+    max-width: 1180px;
+    width: 61.4%;
+    margin: 0 auto;
+    padding-bottom: 163px;
+}
+
+.footer_box {
+    display: flex;
+    margin-top: 196px;
+}
+
+.map {
+    width: 51%;
+}
+
+.footer_right {
+    width: 45%;
+    margin-left: 4%;
+}
+
+.footer_logo {
+    width: 263px;
+}
+
+.footer_right .tell_box {
+    justify-content: left;
+}
+
+.adress p {
+    display: inline-block;
+    margin: 52px 16px 25px 0;
+    line-height: 23px;
+    color: #444444;
+}
+
+/* 診察テーブル外枠 */
+.schedule {
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 2px solid #E7E7E7;
+    border-bottom: 2px solid #E7E7E7;
+    width: 100%;
+    margin-top: 28px;
+    margin-bottom: 22px;
+    line-height: 20px;
+    color: #444444
+}
+
+.schedule dt {
+    width: 16%;
+}
+
+.first_dt {
+    margin-top: 22px;
+}
+
+.schedule dd {
+    width: 84%;
+}
+
+.first_sch {
+    margin-top: 22px;
+    line-height: 20px;
+    border-left: 2px solid #E7E7E7;
+}
+
+.schedule dd p:nth-of-type(1) {
+    padding-left: 28px;
+
+
+}
+
+.schedule dd p:nth-of-type(2) {
+    padding-left: 23px;
+    padding-right: 17px;
+}
+
+.secound_sch,
+.third_sch {
+    //margin-left: 84px;
+    margin-left: 16%;
+    border-left: 2px solid #E7E7E7;
+
+}
+
+.secound_sch p,
+.first_sch p {
+    margin-bottom: 13px;
+}
+
+.first_sch p {
+    padding-top: 3px;
+}
+
+.third_sch {
+    margin-bottom: 40px;
+}
+
+.schedule dd p:nth-of-type(1) {
+    min-width: 80px;
+    display: inline-block;
+}
+
+.schedule dd p:nth-of-type(2) {
+    min-width: 142px;
+    display: inline-block;
+}
+
+.schedule dd p:nth-of-type(3) {
+    min-width: 130px;
+    display: inline-block;
+}
+
+.third_sch p {
+    padding-bottom: 6px;
+}
+
+.dayoff_dd {
+    height: 28px;
+    border-left: 2px solid #E7E7E7;
+
+
+}
+
+.dayoff_dd p {
+    //display: inline;
+    padding-top: 5px;
+    padding-bottom: 4px;
+
+
+}
+
+.dayoff p {
+    //margin-left: 84px;
+    margin-left: 16%;
+    margin-bottom: 22px;
+
+}
+
+.dayoff_dt {
+    margin-bottom: 22px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+}
+
+/*緑下線  */
+.schedule span {
+    width: 42px;
+    background: linear-gradient(transparent 85%, #99E5A5 0%);
+}
+
+/* コピーライト */
+.copyright {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: right;
+    color: #444444;
+}
+
+/******メディアクエリ******************/
+/************************************************/
+@media (max-width: 1850px) {
+
+    /* fv */
+    .fv_text {
+        height: 65%;
+    }
+
+    /* contents */
+    .contents_inner {
+        width: 90%;
+    }
+
+    .medical_smallbox {
+
+        width: 380px;
+        height: 591px;
+    }
+
+    /* フッター */
+    .footerWrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1280px) {
+
+    /******ヘッダーとFV******************/
+    .fv_text {
+        height: 400px;
+    }
+
+    .h1span {
+        width: 80px;
+    }
+
+    /* contents */
+    .contents_inner {
+        width: 600px;
+    }
+
+    .medical_bigbox {
+        justify-content: center;
+    }
+
+    .medical_smallbox {
+
+        width: 600px;
+        height: 591px;
+    }
+
+    /* お知らせ */
+    .news_box {
+        height: auto;
+    }
+
+    .info {
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+
+    li {
+        height: auto;
+    }
+
+    .date {
+        margin-top: 20px;
+        line-height: normal;
+    }
+
+    .top {
+        margin-top: 20px;
+        margin-right: 100px;
+    }
+
+    .text {
+        line-height: 30px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .view_all {
+        padding-bottom: 30px;
+    }
+
+    /* フッター */
+    /* 診察時間２行に */
+    .schedule dd p:nth-of-type(1) {
+        margin: 0;
+        margin-bottom: 2px;
+    }
+
+    .schedule dd p:nth-of-type(2) {
+        margin: 0;
+        margin-bottom: 5px;
+        padding: 0 0 0 23px;
+    }
+
+    .schedule dd p:nth-of-type(3) {
+        display: block;
+        margin: 0 0 15px 83px;
+        /*80+23 */
+        padding: 0 0 0 23px;
+    }
+
+    .third_sch p {
+        padding-bottom: 0;
+    }
+
+    @media (max-width: 1024px) {
+
+        /******ヘッダーとFV******************/
+        .headerWrapper {
+            width: 80%;
+            height: 100px;
+        }
+
+        .logo {
+            width: 140px;
+        }
+
+        .fv_text {
+            height: 320px;
+        }
+
+        h1 {
+            font-size: 16px;
+            letter-spacing: 5px;
+        }
+
+        /* フッター */
+        .footer_box {
+            flex-wrap: wrap-reverse;
+        }
+
+        .map {
+            width: 500px;
+            margin: 0 auto;
+            height: 400px;
+        }
+
+        .footer_right {
+            width: 500px;
+            margin: 0 auto;
+        }
+
+        .footer_logo {
+            margin: 0 auto;
+        }
+
+        /* コピーライト */
+        .copyright {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+    }
+
+    @media (max-width: 834px) {
+
+        /******ヘッダーとFV******************/
+        .fvWrapper {
+            height: 410px;
+            background-position: 80%;
+        }
+
+        .fv_text {
+            position: absolute;
+            top: 10%;
+            left: 4%;
+        }
+
+        .h1span {
+            width: 65px;
+        }
+
+        /*************** belief **************/
+        .beliefWrapper {
+            width: 80%;
+            justify-content: center;
+        }
+
+        .belief_img {
+            width: 90%;
+        }
+
+        .belief_textbox {
+            width: 90%;
+            max-width: none;
+            text-align: center;
+            margin: 31px
+        }
+
+        .belief {
+            margin-bottom: 32px;
+        }
+
+        /* contents */
+
+
+
+        .medical_smallbox {
+
+            width: 400px;
+            height: 591px;
+        }
+
+        /* フッター */
+
+    }
+
+    @media (max-width: 744px) {
+
+        /******ヘッダーとFV******************/
+        .headerWrapper {
+            width: 100%;
+            height: 100px;
+        }
+
+        /* contents */
+        .contents_inner {
+            width: 400px;
+        }
+
+        .medical span {
+            display: inline-block;
+        }
+
+        /* フッター */
+        .footer_box {
+            margin-top: 100px;
+        }
+
+        .map {
+            width: 400px;
+            height: 300px;
+        }
+
+        .footer_right {
+            width: 400px;
+        }
+
+        .adress p {
+            display: block;
+            margin: 0;
+        }
+
+        .adress {
+            margin: 20px 0;
+        }
+
+
+    }
+
+    @media (max-width: 550px) {
+
+        /******ヘッダーとFV******************/
+        .headerWrapper {
+            position: static;
+            display: grid;
+            justify-content: center;
+            height: 130px;
+        }
+
+        .logo {
+            position: static;
+            transform: none;
+            margin: 10px auto;
+
+        }
+
+        .info_box {
+            position: static;
+            transform: none;
+        }
+
+        .tell_box {
+            justify-content: center;
+        }
+
+        /*************** belief **************/
+        .beliefWrapper {
+            width: 100%;
+            padding-top: 100px;
+        }
+
+        /* contents */
+        .contents_inner {
+            width: 95%;
+        }
+
+
+
+
+
+        .medical_smallbox {
+
+            width: 350px;
+            height: 550px;
+        }
+
+        /* フッター */
+        .map {
+            width: 300px;
+            height: 300px;
+        }
+
+        .footer_right {
+            width: 350px;
+        }
+
+        .schedule dd {
+            width: 80%;
+        }
+
+        .schedule dt {
+            width: 20%;
+        }
+
+        .secound_sch,
+        .third_sch {
+            margin-left: 20%;
+        }
+
+    }
+
+    /******ヘッダーとFVのメディアクエリ　ここまで******************/
+    /************************************************/
