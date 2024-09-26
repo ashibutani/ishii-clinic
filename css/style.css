@@ -82,7 +82,7 @@ body {
     height: 59%;
 }
 
-h1 {
+h2 {
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
     color: #444444;
@@ -95,7 +95,7 @@ h1 {
 
 }
 
-.h1span {
+.h2span {
     display: inline-block;
     background-color: #ffffff;
     width: 102px;
@@ -180,7 +180,7 @@ h1 {
     margin: 0 auto;
 }
 
-h2 {
+h3 {
     font-size: 24px;
     font-weight: 700;
     display: inline-flex;
@@ -526,7 +526,7 @@ li {
         height: 400px;
     }
 
-    .h1span {
+    .h2span {
         width: 80px;
     }
 
@@ -620,7 +620,7 @@ li {
             height: 320px;
         }
 
-        h1 {
+        h2 {
             font-size: 16px;
             letter-spacing: 5px;
         }
@@ -667,7 +667,7 @@ li {
             left: 4%;
         }
 
-        .h1span {
+        .h2span {
             width: 65px;
         }
 
